@@ -18,3 +18,5 @@ social_urls:
   instagram: "https://www.instagram.com/mig21dc"
   linkedin: "https://www.linkedin.com/in/shawn-xu-a4997398/"
   github: "https://github.com/MiG-21DC"
+
+theme: jekyll-theme-cayman
