@@ -9,7 +9,11 @@ var del = require('del');
 
 gulp.task('resize', function () {
     return gulp.src('images/*.*')
-        .pipe(gulp.dest('images/fulls'))
+	.pipe(imageResize({
+	    width: 1920,
+	    imageMagick: true
+	}))
+	.pipe(gulp.dest('images/fulls'))
         .pipe(imageResize({
             width: 512,
             imageMagick: true
